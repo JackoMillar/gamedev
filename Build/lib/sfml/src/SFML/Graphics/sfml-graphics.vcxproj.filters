@@ -2,22 +2,24 @@
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\BlendMode.cpp" />
+    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Color.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Font.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Glsl.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\GLCheck.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\GLExtensions.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Image.cpp" />
+    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\ImageLoader.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\RenderStates.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\RenderTexture.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\RenderTarget.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\RenderWindow.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Shader.cpp" />
-    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\StencilMode.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Texture.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\TextureSaver.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Transform.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Transformable.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\View.cpp" />
+    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Vertex.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\Shape.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
@@ -42,6 +44,9 @@
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\VertexBuffer.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\RenderTextureImpl.cpp">
+      <Filter>render texture</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\RenderTextureImplFBO.cpp">
       <Filter>render texture</Filter>
     </ClCompile>
@@ -52,8 +57,6 @@
   <ItemGroup>
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\BlendMode.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Color.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Color.inl" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\CoordinateType.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Export.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Font.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Glsl.hpp" />
@@ -62,6 +65,7 @@
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\GLCheck.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\GLExtensions.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Image.hpp" />
+    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\ImageLoader.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\PrimitiveType.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Rect.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Rect.inl" />
@@ -70,11 +74,9 @@
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\RenderTarget.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\RenderWindow.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Shader.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\StencilMode.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Texture.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\TextureSaver.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Transform.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Transform.inl" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Transformable.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\View.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Graphics\Vertex.hpp" />
@@ -117,6 +119,9 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Graphics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\Build\lib\sfml\src\SFML\Graphics\sfml-graphics.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="drawables">

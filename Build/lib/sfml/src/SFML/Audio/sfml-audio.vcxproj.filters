@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\AudioResource.cpp" />
+    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\ALCheck.cpp" />
+    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\AlResource.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\AudioDevice.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\Listener.cpp" />
-    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\Miniaudio.cpp" />
-    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\MiniaudioUtils.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\Music.cpp" />
-    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\PlaybackDevice.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\Sound.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\SoundBuffer.cpp" />
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\SoundBufferRecorder.cpp" />
@@ -42,17 +40,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\AudioResource.hpp" />
+    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\ALCheck.hpp" />
+    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\AlResource.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\AudioDevice.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\Export.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\Listener.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\MiniaudioUtils.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\Music.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\PlaybackDevice.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\Sound.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\SoundBuffer.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\SoundBufferRecorder.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\SoundChannel.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\InputSoundFile.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\OutputSoundFile.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Audio\SoundRecorder.hpp" />
@@ -94,6 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Audio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\Build\lib\sfml\src\SFML\Audio\sfml-audio.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="codecs">

@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 16/09/2024 15:01:03.
+      Build started 17/09/2024 10:34:45.
       
       Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -52,7 +52,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.78
+      Time Elapsed 00:00:08.52
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -78,7 +78,7 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 16/09/2024 15:01:06.
+      Build started 17/09/2024 10:34:57.
       
       Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -106,7 +106,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.40
+      Time Elapsed 00:00:06.46
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,8 +125,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ungven"
-      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ungven"
+      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-3nuhr9"
+      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-3nuhr9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -135,39 +135,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ungven'
+        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-3nuhr9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_16ffd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9d570.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/09/2024 15:01:08.
+        Build started 17/09/2024 10:35:07.
         
-        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ungven\\cmTC_16ffd.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-3nuhr9\\cmTC_9d570.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_16ffd.dir\\Debug\\".
-          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ungven\\Debug\\".
-          Creating directory "cmTC_16ffd.dir\\Debug\\cmTC_16ffd.tlog\\".
+          Creating directory "cmTC_9d570.dir\\Debug\\".
+          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-3nuhr9\\Debug\\".
+          Creating directory "cmTC_9d570.dir\\Debug\\cmTC_9d570.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_16ffd.dir\\Debug\\cmTC_16ffd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_16ffd.dir\\Debug\\cmTC_16ffd.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9d570.dir\\Debug\\cmTC_9d570.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9d570.dir\\Debug\\cmTC_9d570.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16ffd.dir\\Debug\\\\" /Fd"cmTC_16ffd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d570.dir\\Debug\\\\" /Fd"cmTC_9d570.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
-          CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16ffd.dir\\Debug\\\\" /Fd"cmTC_16ffd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d570.dir\\Debug\\\\" /Fd"cmTC_9d570.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ungven\\Debug\\cmTC_16ffd.exe" /INCREMENTAL /ILK:"cmTC_16ffd.dir\\Debug\\cmTC_16ffd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ungven/Debug/cmTC_16ffd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ungven/Debug/cmTC_16ffd.lib" /MACHINE:X64  /machine:x64 cmTC_16ffd.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_16ffd.vcxproj -> C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ungven\\Debug\\cmTC_16ffd.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-3nuhr9\\Debug\\cmTC_9d570.exe" /INCREMENTAL /ILK:"cmTC_9d570.dir\\Debug\\cmTC_9d570.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-3nuhr9/Debug/cmTC_9d570.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-3nuhr9/Debug/cmTC_9d570.lib" /MACHINE:X64  /machine:x64 cmTC_9d570.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9d570.vcxproj -> C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-3nuhr9\\Debug\\cmTC_9d570.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_16ffd.dir\\Debug\\cmTC_16ffd.tlog\\unsuccessfulbuild".
-          Touching "cmTC_16ffd.dir\\Debug\\cmTC_16ffd.tlog\\cmTC_16ffd.lastbuildstate".
-        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ungven\\cmTC_16ffd.vcxproj" (default targets).
+          Deleting file "cmTC_9d570.dir\\Debug\\cmTC_9d570.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9d570.dir\\Debug\\cmTC_9d570.tlog\\cmTC_9d570.lastbuildstate".
+        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-3nuhr9\\cmTC_9d570.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.59
+        Time Elapsed 00:00:05.27
         
       exitCode: 0
   -
@@ -207,8 +207,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ypx5pa"
-      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ypx5pa"
+      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4eg3d"
+      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4eg3d"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -218,39 +218,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ypx5pa'
+        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4eg3d'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_40202.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3518a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/09/2024 15:01:11.
+        Build started 17/09/2024 10:35:15.
         
-        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ypx5pa\\cmTC_40202.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4eg3d\\cmTC_3518a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_40202.dir\\Debug\\".
-          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ypx5pa\\Debug\\".
-          Creating directory "cmTC_40202.dir\\Debug\\cmTC_40202.tlog\\".
+          Creating directory "cmTC_3518a.dir\\Debug\\".
+          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4eg3d\\Debug\\".
+          Creating directory "cmTC_3518a.dir\\Debug\\cmTC_3518a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_40202.dir\\Debug\\cmTC_40202.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_40202.dir\\Debug\\cmTC_40202.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3518a.dir\\Debug\\cmTC_3518a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3518a.dir\\Debug\\cmTC_3518a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_40202.dir\\Debug\\\\" /Fd"cmTC_40202.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_3518a.dir\\Debug\\\\" /Fd"cmTC_3518a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
-          CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_40202.dir\\Debug\\\\" /Fd"cmTC_40202.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_3518a.dir\\Debug\\\\" /Fd"cmTC_3518a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ypx5pa\\Debug\\cmTC_40202.exe" /INCREMENTAL /ILK:"cmTC_40202.dir\\Debug\\cmTC_40202.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ypx5pa/Debug/cmTC_40202.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-ypx5pa/Debug/cmTC_40202.lib" /MACHINE:X64  /machine:x64 cmTC_40202.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_40202.vcxproj -> C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ypx5pa\\Debug\\cmTC_40202.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4eg3d\\Debug\\cmTC_3518a.exe" /INCREMENTAL /ILK:"cmTC_3518a.dir\\Debug\\cmTC_3518a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4eg3d/Debug/cmTC_3518a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4eg3d/Debug/cmTC_3518a.lib" /MACHINE:X64  /machine:x64 cmTC_3518a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3518a.vcxproj -> C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4eg3d\\Debug\\cmTC_3518a.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_40202.dir\\Debug\\cmTC_40202.tlog\\unsuccessfulbuild".
-          Touching "cmTC_40202.dir\\Debug\\cmTC_40202.tlog\\cmTC_40202.lastbuildstate".
-        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ypx5pa\\cmTC_40202.vcxproj" (default targets).
+          Deleting file "cmTC_3518a.dir\\Debug\\cmTC_3518a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3518a.dir\\Debug\\cmTC_3518a.tlog\\cmTC_3518a.lastbuildstate".
+        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4eg3d\\cmTC_3518a.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.79
+        Time Elapsed 00:00:06.38
         
       exitCode: 0
   -
@@ -284,177 +284,229 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "lib/sfml/src/SFML/System/CMakeLists.txt:70 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "lib/sfml/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/sfml/CMakeLists.txt:41 (include)"
     checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+      - "Looking for sys/types.h"
     directories:
-      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-nakhqq"
-      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-nakhqq"
+      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-km86u1"
+      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-km86u1"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/Jack Millar/Documents/GitHub/gamedev/lib/sfml/cmake/Modules/"
-      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Jack Millar/Documents/GitHub/gamedev/lib/sfml/cmake/CompilerOptionsOverride.cmake"
     buildResult:
-      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-nakhqq'
+        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-km86u1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ad10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_efbbf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/09/2024 15:01:14.
+        Build started 17/09/2024 10:35:25.
         
-        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\cmTC_3ad10.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-km86u1\\cmTC_efbbf.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_3ad10.dir\\Debug\\".
-          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\Debug\\".
-          Creating directory "cmTC_3ad10.dir\\Debug\\cmTC_3ad10.tlog\\".
+          Creating directory "cmTC_efbbf.dir\\Debug\\".
+          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-km86u1\\Debug\\".
+          Creating directory "cmTC_efbbf.dir\\Debug\\cmTC_efbbf.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3ad10.dir\\Debug\\cmTC_3ad10.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3ad10.dir\\Debug\\cmTC_3ad10.tlog\\unsuccessfulbuild".
+          Creating "cmTC_efbbf.dir\\Debug\\cmTC_efbbf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_efbbf.dir\\Debug\\cmTC_efbbf.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ad10.dir\\Debug\\\\" /Fd"cmTC_3ad10.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efbbf.dir\\Debug\\\\" /Fd"cmTC_efbbf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-km86u1\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
-          src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ad10.dir\\Debug\\\\" /Fd"cmTC_3ad10.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\src.c"
-        C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\cmTC_3ad10.vcxproj]
-        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\cmTC_3ad10.vcxproj" (default targets) -- FAILED.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efbbf.dir\\Debug\\\\" /Fd"cmTC_efbbf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-km86u1\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-km86u1\\Debug\\cmTC_efbbf.exe" /INCREMENTAL /ILK:"cmTC_efbbf.dir\\Debug\\cmTC_efbbf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-km86u1/Debug/cmTC_efbbf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-km86u1/Debug/cmTC_efbbf.lib" /MACHINE:X64  /machine:x64 cmTC_efbbf.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_efbbf.vcxproj -> C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-km86u1\\Debug\\cmTC_efbbf.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_efbbf.dir\\Debug\\cmTC_efbbf.tlog\\unsuccessfulbuild".
+          Touching "cmTC_efbbf.dir\\Debug\\cmTC_efbbf.tlog\\cmTC_efbbf.lastbuildstate".
+        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-km86u1\\cmTC_efbbf.vcxproj" (default targets).
         
-        Build FAILED.
-        
-        "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\cmTC_3ad10.vcxproj" (default target) (1) ->
-        (ClCompile target) -> 
-          C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nakhqq\\cmTC_3ad10.vcxproj]
-        
+        Build succeeded.
             0 Warning(s)
-            1 Error(s)
+            0 Error(s)
         
-        Time Elapsed 00:00:00.77
+        Time Elapsed 00:00:06.12
         
-      exitCode: 1
+      exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
-      - "lib/sfml/src/SFML/System/CMakeLists.txt:70 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "lib/sfml/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/sfml/CMakeLists.txt:41 (include)"
     checks:
-      - "Looking for pthread_create in pthreads"
+      - "Looking for stdint.h"
     directories:
-      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4m3bw"
-      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4m3bw"
+      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-tetzv6"
+      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-tetzv6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/Jack Millar/Documents/GitHub/gamedev/lib/sfml/cmake/Modules/"
-      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Jack Millar/Documents/GitHub/gamedev/lib/sfml/cmake/CompilerOptionsOverride.cmake"
     buildResult:
-      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4m3bw'
+        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-tetzv6'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_11a20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_536f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/09/2024 15:01:15.
+        Build started 17/09/2024 10:35:33.
         
-        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\cmTC_11a20.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-tetzv6\\cmTC_536f0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_11a20.dir\\Debug\\".
-          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\Debug\\".
-          Creating directory "cmTC_11a20.dir\\Debug\\cmTC_11a20.tlog\\".
+          Creating directory "cmTC_536f0.dir\\Debug\\".
+          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-tetzv6\\Debug\\".
+          Creating directory "cmTC_536f0.dir\\Debug\\cmTC_536f0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_11a20.dir\\Debug\\cmTC_11a20.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_11a20.dir\\Debug\\cmTC_11a20.tlog\\unsuccessfulbuild".
+          Creating "cmTC_536f0.dir\\Debug\\cmTC_536f0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_536f0.dir\\Debug\\cmTC_536f0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11a20.dir\\Debug\\\\" /Fd"cmTC_11a20.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_536f0.dir\\Debug\\\\" /Fd"cmTC_536f0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-tetzv6\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
-          CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11a20.dir\\Debug\\\\" /Fd"cmTC_11a20.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\CheckFunctionExists.c"
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_536f0.dir\\Debug\\\\" /Fd"cmTC_536f0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-tetzv6\\CheckIncludeFile.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\Debug\\cmTC_11a20.exe" /INCREMENTAL /ILK:"cmTC_11a20.dir\\Debug\\cmTC_11a20.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4m3bw/Debug/cmTC_11a20.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-h4m3bw/Debug/cmTC_11a20.lib" /MACHINE:X64  /machine:x64 cmTC_11a20.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\cmTC_11a20.vcxproj]
-        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\cmTC_11a20.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-tetzv6\\Debug\\cmTC_536f0.exe" /INCREMENTAL /ILK:"cmTC_536f0.dir\\Debug\\cmTC_536f0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-tetzv6/Debug/cmTC_536f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-tetzv6/Debug/cmTC_536f0.lib" /MACHINE:X64  /machine:x64 cmTC_536f0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_536f0.vcxproj -> C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-tetzv6\\Debug\\cmTC_536f0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_536f0.dir\\Debug\\cmTC_536f0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_536f0.dir\\Debug\\cmTC_536f0.tlog\\cmTC_536f0.lastbuildstate".
+        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-tetzv6\\cmTC_536f0.vcxproj" (default targets).
         
-        Build FAILED.
-        
-        "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\cmTC_11a20.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h4m3bw\\cmTC_11a20.vcxproj]
-        
+        Build succeeded.
             0 Warning(s)
-            1 Error(s)
+            0 Error(s)
         
-        Time Elapsed 00:00:01.35
+        Time Elapsed 00:00:06.33
         
-      exitCode: 1
+      exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
-      - "lib/sfml/src/SFML/System/CMakeLists.txt:70 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "lib/sfml/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/sfml/CMakeLists.txt:41 (include)"
     checks:
-      - "Looking for pthread_create in pthread"
+      - "Looking for stddef.h"
     directories:
-      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-eroocn"
-      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-eroocn"
+      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-taw4cl"
+      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-taw4cl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/Jack Millar/Documents/GitHub/gamedev/lib/sfml/cmake/Modules/"
-      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Jack Millar/Documents/GitHub/gamedev/lib/sfml/cmake/CompilerOptionsOverride.cmake"
     buildResult:
-      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-eroocn'
+        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-taw4cl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c60fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a2e2a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/09/2024 15:01:17.
+        Build started 17/09/2024 10:35:42.
         
-        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\cmTC_c60fe.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-taw4cl\\cmTC_a2e2a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c60fe.dir\\Debug\\".
-          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\Debug\\".
-          Creating directory "cmTC_c60fe.dir\\Debug\\cmTC_c60fe.tlog\\".
+          Creating directory "cmTC_a2e2a.dir\\Debug\\".
+          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-taw4cl\\Debug\\".
+          Creating directory "cmTC_a2e2a.dir\\Debug\\cmTC_a2e2a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c60fe.dir\\Debug\\cmTC_c60fe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c60fe.dir\\Debug\\cmTC_c60fe.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a2e2a.dir\\Debug\\cmTC_a2e2a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a2e2a.dir\\Debug\\cmTC_a2e2a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c60fe.dir\\Debug\\\\" /Fd"cmTC_c60fe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2e2a.dir\\Debug\\\\" /Fd"cmTC_a2e2a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-taw4cl\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
-          CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c60fe.dir\\Debug\\\\" /Fd"cmTC_c60fe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\CheckFunctionExists.c"
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2e2a.dir\\Debug\\\\" /Fd"cmTC_a2e2a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-taw4cl\\CheckIncludeFile.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\Debug\\cmTC_c60fe.exe" /INCREMENTAL /ILK:"cmTC_c60fe.dir\\Debug\\cmTC_c60fe.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-eroocn/Debug/cmTC_c60fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-eroocn/Debug/cmTC_c60fe.lib" /MACHINE:X64  /machine:x64 cmTC_c60fe.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\cmTC_c60fe.vcxproj]
-        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\cmTC_c60fe.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-taw4cl\\Debug\\cmTC_a2e2a.exe" /INCREMENTAL /ILK:"cmTC_a2e2a.dir\\Debug\\cmTC_a2e2a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-taw4cl/Debug/cmTC_a2e2a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-taw4cl/Debug/cmTC_a2e2a.lib" /MACHINE:X64  /machine:x64 cmTC_a2e2a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a2e2a.vcxproj -> C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-taw4cl\\Debug\\cmTC_a2e2a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a2e2a.dir\\Debug\\cmTC_a2e2a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a2e2a.dir\\Debug\\cmTC_a2e2a.tlog\\cmTC_a2e2a.lastbuildstate".
+        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-taw4cl\\cmTC_a2e2a.vcxproj" (default targets).
         
-        Build FAILED.
-        
-        "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\cmTC_c60fe.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-eroocn\\cmTC_c60fe.vcxproj]
-        
+        Build succeeded.
             0 Warning(s)
-            1 Error(s)
+            0 Error(s)
         
-        Time Elapsed 00:00:01.22
+        Time Elapsed 00:00:06.34
         
-      exitCode: 1
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "lib/sfml/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/sfml/CMakeLists.txt:41 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-rpsxuj"
+      binary: "C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-rpsxuj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Jack Millar/Documents/GitHub/gamedev/lib/sfml/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-rpsxuj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_10fb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 17/09/2024 10:35:52.
+        
+        Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsxuj\\cmTC_10fb0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_10fb0.dir\\Debug\\".
+          Creating directory "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsxuj\\Debug\\".
+          Creating directory "cmTC_10fb0.dir\\Debug\\cmTC_10fb0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_10fb0.dir\\Debug\\cmTC_10fb0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_10fb0.dir\\Debug\\cmTC_10fb0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10fb0.dir\\Debug\\\\" /Fd"cmTC_10fb0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsxuj\\SIZEOF_VOID_PTR.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          SIZEOF_VOID_PTR.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10fb0.dir\\Debug\\\\" /Fd"cmTC_10fb0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsxuj\\SIZEOF_VOID_PTR.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsxuj\\Debug\\cmTC_10fb0.exe" /INCREMENTAL /ILK:"cmTC_10fb0.dir\\Debug\\cmTC_10fb0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-rpsxuj/Debug/cmTC_10fb0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jack Millar/Documents/GitHub/gamedev/Build/CMakeFiles/CMakeScratch/TryCompile-rpsxuj/Debug/cmTC_10fb0.lib" /MACHINE:X64  /machine:x64 cmTC_10fb0.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_10fb0.vcxproj -> C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsxuj\\Debug\\cmTC_10fb0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_10fb0.dir\\Debug\\cmTC_10fb0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_10fb0.dir\\Debug\\cmTC_10fb0.tlog\\cmTC_10fb0.lastbuildstate".
+        Done Building Project "C:\\Users\\Jack Millar\\Documents\\GitHub\\gamedev\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsxuj\\cmTC_10fb0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:06.37
+        
+      exitCode: 0
 ...

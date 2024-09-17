@@ -57,7 +57,6 @@
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\GlResource.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\ContextSettings.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\Event.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\Event.inl" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\InputImpl.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\Joystick.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\JoystickImpl.hpp" />
@@ -71,17 +70,18 @@
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\VideoMode.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\VideoModeImpl.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\Vulkan.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\VulkanImpl.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\Window.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\WindowBase.hpp" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\WindowBase.inl" />
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\WindowEnums.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\WindowHandle.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\WindowImpl.hpp" />
+    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include\SFML\Window\WindowStyle.hpp" />
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\Win32\CursorImpl.hpp">
       <Filter>windows</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\Win32\ClipboardImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\Win32\InputImpl.hpp">
       <Filter>windows</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\Win32\JoystickImpl.hpp">
@@ -90,7 +90,7 @@
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\Win32\SensorImpl.hpp">
       <Filter>windows</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\Win32\Utils.hpp">
+    <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\Win32\VulkanImplWin32.hpp">
       <Filter>windows</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\Win32\WindowImplWin32.hpp">
@@ -102,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\src\SFML\Window\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\Build\lib\sfml\src\SFML\Window\sfml-window.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="windows">
