@@ -10,8 +10,10 @@
     "\\Build",
     "\\Build\\bin",
     "\\Build\\x64",
-    "\\practical_1"
+    "\\practical_1",
+    "\\res",
+    "\\res\\fonts"
   ],
-  "SelectedNode": "\\Build\\Games_Engineering.sln",
+  "SelectedNode": "\\practical_1\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
