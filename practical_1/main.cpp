@@ -22,6 +22,11 @@ const float initialVelocityX = 100.f;
 const float initialVelocityY = 60.f;
 const float velocityMultiplier = 1.1f;
 
+Font font;
+Text text;
+
+int leftpoint = 0;
+int rightpoint = 0;
 
 CircleShape ball;
 RectangleShape paddles[2];
@@ -43,6 +48,13 @@ void Load() {
 
     ballVelocity = { (isPlayer1Serving ? initialVelocityX : -initialVelocityX), initialVelocityY };
 
+    // Load font-face from res dir
+    font.loadFromFile("res/fonts/OpenSans-VariableFont.ttf");
+    // Set text element to use font
+    text.setFont(font);
+    // set the character size to 24 pixels
+    text.setCharacterSize(24);
+
 }
 
 void Reset(bool isPlayer1Serving) {
@@ -54,7 +66,10 @@ void Reset(bool isPlayer1Serving) {
 
     ballVelocity = { (isPlayer1Serving ? initialVelocityX : -initialVelocityX), initialVelocityY };
 
-
+    // Update Score Text
+    text.setString(to_string(leftpoint) + " : " + to_string(rightpoint));
+    // Keep Score Text Centered
+    text.setPosition((gameWidth * .5f) - (text.getLocalBounds().width * .5f), 0);
 }
 
 void Update(RenderWindow& window) {
@@ -113,10 +128,13 @@ void Update(RenderWindow& window) {
     }
     else if (bx > gameWidth) {
         // right wall
+        leftpoint++;
         Reset(true);
+        
     }
     else if (bx < 0) {
         // left wall
+        rightpoint++;
         Reset(false);
     }
     else if (
@@ -171,6 +189,7 @@ void Render(RenderWindow& window) {
     window.draw(paddles[0]);
     window.draw(paddles[1]);
     window.draw(ball);
+    window.draw(text);
 }
 
 int main() {
