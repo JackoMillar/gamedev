@@ -45,7 +45,7 @@ void Load() {
 
 }
 
-void Reset() {
+void Reset(bool isPlayer1Serving) {
 
     paddles[0].setPosition(Vector2f(paddleOffsetWall + paddleSize.x / 2.f, gameHeight / 2.f));
     paddles[1].setPosition(Vector2f(gameWidth - paddleOffsetWall - paddleSize.x / 2.f, gameHeight / 2.f));
@@ -87,6 +87,7 @@ void Update(RenderWindow& window) {
     }
     paddles[0].move(Vector2f(0.f, direction * paddleSpeed * dt));
 
+    direction = 0.0f;
     if (Keyboard::isKeyPressed(controls[2])) {
         direction--;
     }
@@ -112,11 +113,11 @@ void Update(RenderWindow& window) {
     }
     else if (bx > gameWidth) {
         // right wall
-        Reset();
+        Reset(true);
     }
     else if (bx < 0) {
         // left wall
-        Reset();
+        Reset(false);
     }
     else if (
         //ball is inline or behind paddle AND
@@ -127,10 +128,42 @@ void Update(RenderWindow& window) {
         by < paddles[0].getPosition().y + (paddleSize.y * 0.5))
     {
         // bounce off left paddle
+        ballVelocity.x *= -velocityMultiplier;
+        ballVelocity.y *= velocityMultiplier;
+        ball.move(Vector2f(10.f, 0.f));
     }
-    else if (...) {
+    else if (
+        // ball is inline or behind paddle AND
+        bx > gameWidth - paddleSize.x - paddleOffsetWall &&  // Fixed this line
+        // ball is below top edge of paddle AND
+        by > paddles[1].getPosition().y - (paddleSize.y * 0.5) &&
+        // ball is above bottom edge of paddle
+        by < paddles[1].getPosition().y + (paddleSize.y * 0.5))
+    {
         // bounce off right paddle
+        ballVelocity.x *= -velocityMultiplier;
+        ballVelocity.y *= velocityMultiplier;
+        ball.move(Vector2f(-10.f, 0.f));
     }
+
+    // Check paddle Collison
+    const float cy = paddles[0].getPosition().y;
+
+    const float vy = paddles[1].getPosition().y;
+    if (cy > gameHeight - 50) { //bottom wall
+        paddles[0].move(Vector2f(0.f, -10.f));
+    }
+    else if (cy < 50) { //top wall
+        paddles[0].move(Vector2f(0.f, 10.f));
+    }
+
+    if (vy > gameHeight - 50) { //bottom wall
+        paddles[1].move(Vector2f(0.f, -10.f));
+    }
+    else if (vy < 50) { //top wall
+        paddles[1].move(Vector2f(0.f, 10.f));
+    }
+
 }
 
 void Render(RenderWindow& window) {
