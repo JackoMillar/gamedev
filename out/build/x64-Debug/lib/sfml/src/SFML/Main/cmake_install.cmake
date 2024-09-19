@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Jack Millar/Documents/GitHub/gamedev/out/build/x64-Debug/lib/sfml/lib/sfml-main-s-d.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Jack Millar/Documents/GitHub/gamedev/out/build/x64-Debug/lib/sfml/lib/sfml-main-d.lib")
 endif()
 

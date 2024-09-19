@@ -8,8 +8,10 @@
   "ExpandedNodes": [
     "",
     "\\Build",
+    "\\Build\\bin",
+    "\\Build\\x64",
     "\\practical_1"
   ],
-  "SelectedNode": "\\practical_1\\main.cpp",
+  "SelectedNode": "\\Build\\Games_Engineering.sln",
   "PreviewInSolutionExplorer": false
 }
