@@ -43,6 +43,9 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+### Build ###
+
+
 # Local History for Visual Studio Code
 .history/
 
