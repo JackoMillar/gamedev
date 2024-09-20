@@ -7,12 +7,10 @@
   },
   "ExpandedNodes": [
     "",
-    "\\Build\\bin",
-    "\\lib",
-    "\\practical_1",
-    "\\practical_2",
-    "\\res\\fonts"
+    "\\2_invaders",
+    "\\Build",
+    "\\practical_1"
   ],
-  "SelectedNode": "\\CMakeLists.txt",
+  "SelectedNode": "\\Build",
   "PreviewInSolutionExplorer": false
 }
