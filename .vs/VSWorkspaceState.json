@@ -7,13 +7,12 @@
   },
   "ExpandedNodes": [
     "",
-    "\\Build",
     "\\Build\\bin",
-    "\\Build\\x64",
+    "\\lib",
     "\\practical_1",
-    "\\res",
+    "\\practical_2",
     "\\res\\fonts"
   ],
-  "SelectedNode": "\\practical_1\\main.cpp",
+  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
