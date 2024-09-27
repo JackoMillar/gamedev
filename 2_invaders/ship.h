@@ -18,7 +18,19 @@ public:
 
 class Invader : public Ship {
 public:
+	static bool direction;
+	static float speed;
 	Invader(sf::IntRect ir, sf::Vector2f pos);
 	Invader();
 	void Update(const float& dt) override;
+};
+
+//ship.h
+class Player : public Ship {
+public:
+	Player();
+	static bool playerDirection;
+	static float playerSpeed;
+	void Update(const float& dt) override;
+
 };

@@ -4,38 +4,64 @@
 #include "ship.h"
 //...
 std::vector<Ship*> ships;
+std::vector<Ship*> playerships;
 using namespace std;
 using namespace sf;
 
 const int gameWidth = 800;
 const int gameHeight = 600;
 
+const int invaders_rows = 5;
+const int invaders_columns = 11;
+const int invader_width = 32;
+const int invader_height = 32;
+const int invader_spacing_x = 40; // Horizontal spacing between invaders
+const int invader_spacing_y = 40; // Vertical spacing between invaders
+const int start_x = 100;  // Starting x position
+const int start_y = 50;   // Starting y position
+
 Texture spritesheet;
 Sprite invader;
+Sprite player;
 
 void Load() {
     if (!spritesheet.loadFromFile("res/sprites/invaders_sheet.png")) {
         cerr << "Failed to load spritesheet!" << std::endl;
     }
-    invader.setTexture(spritesheet);
-    invader.setTextureRect(IntRect(Vector2i(0, 0), Vector2i(32, 32)));
+    
+    auto player = new Player();
+    playerships.push_back(player);
 
-    // Add first invader
-    Invader* inv1 = new Invader(sf::IntRect(Vector2i(0, 0), Vector2i(32, 32)), { 100,100 });
-    ships.push_back(inv1);
+    // Initialize speed
+    Invader::speed = 40.0f; // Set a desired speed value
 
-    // Add second invader (at different texture and position)
-    Invader* inv2 = new Invader(sf::IntRect(Vector2i(32, 0), Vector2i(32, 32)), { 200,500 });
-    ships.push_back(inv2);
+    Player::playerSpeed = 300.f;
 
-    // Add third invader (different position)
-    Invader* inv3 = new Invader(sf::IntRect(Vector2i(64, 0), Vector2i(32, 32)), { 300,100 });
-    ships.push_back(inv3);
+    int posx = 50.f;
+    int posy = 50.f;
+    int invx = 0;
+    for (int r = 0; r < invaders_rows; ++r) {
+        // Determine the row group to decide which sprite to use
+        int sprite_row;
+        if (r == 0) {
+            sprite_row = 0;  // First row is type 0
+        }
+        else if (r <= 2) {
+            sprite_row = 1;  // Second and third rows are type 1
+        }
+        else if (r <= 4) {
+            sprite_row = 2;  // Fourth and fifth rows are type 2
+        }
 
-    // Add third invader (different position)
-    Invader* inv4 = new Invader(sf::IntRect(Vector2i(96, 0), Vector2i(32, 32)), { 400,200 });
-    ships.push_back(inv4);
+        // Adjust Y offset based on the sprite_row to select the correct texture
+        auto rect = IntRect(Vector2i(sprite_row * 32, 0), Vector2i(32, 32));
 
+        for (int c = 0; c < invaders_columns; ++c) {
+            Vector2f position(posx * c, posy * r);
+            auto inv = new Invader(rect, position);
+            ships.push_back(inv);
+        }
+    }
 
 }
 
@@ -56,12 +82,21 @@ void Update(RenderWindow& window) {
     for (auto& s : ships) {
         s->Update(dt);
     };
+
+    for (auto s : playerships) {
+        s->Update(dt);
+    };
+    
+
 }
 
 void Render(RenderWindow& window) {
     window.draw(invader);
 
     for (const auto s : ships) {
+        window.draw(*s);
+    }
+    for (const auto s : playerships) {
         window.draw(*s);
     }
 }

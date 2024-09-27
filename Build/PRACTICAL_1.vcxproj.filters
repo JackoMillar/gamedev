@@ -4,9 +4,6 @@
     <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\practical_1\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\2_invaders\ship.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\2_invaders\ship.h">
