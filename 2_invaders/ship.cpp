@@ -28,6 +28,15 @@ Ship::~Ship() = default;
 // Empty Ship Update (you can keep this or remove it if not needed)
 void Ship::Update(const float& dt) {}
 
+void Ship::Explode() {
+	setTextureRect(IntRect(Vector2i(128, 32), Vector2i(32, 32)));
+	_exploded = true;
+}
+
+bool Ship::is_exploded() const {
+	return _exploded;
+}
+
 // Invader class constructors
 Invader::Invader() : Ship() {}
 Invader::Invader(sf::IntRect ir, sf::Vector2f pos) : Ship(ir) {
@@ -60,6 +69,10 @@ Player::Player() : Ship(IntRect(Vector2i(160, 32), Vector2i(32, 32))) {
 
 // Player-specific Update method
 void Player::Update(const float& dt) {
+
+	static float firetime = 0.0f;
+	firetime -= dt;
+
 	// Custom movement logic for the player
 
 	// Move left (A key) or right (D key)
@@ -68,6 +81,15 @@ void Player::Update(const float& dt) {
 	}
 	if (Keyboard::isKeyPressed(Keyboard::D)) {
 		move(Vector2f(playerSpeed * dt, 0.0f));  // Move right
+	}
+	if (firetime <= 0 && Keyboard::isKeyPressed(Keyboard::Space)) {
+		sf::Vector2f bulletPos = getPosition();
+		bulletPos.y -= 32; // Adjust this y value based on your desired offset (negative = up)
+		bulletPos.x -= 16; // Adjust this x value based on your desired offset (negative = left)
+
+		Bullet* newBullet = new Bullet(bulletPos, false);  // Create bullet object
+		bullets.push_back(newBullet);  // Add to bullets vector
+		firetime = 0.7f;
 	}
 
 	// Prevent player from going off screen (left or right bounds)
@@ -78,3 +100,4 @@ void Player::Update(const float& dt) {
 		setPosition(gameWidth - 16, getPosition().y); // Right bound
 	}
 }
+

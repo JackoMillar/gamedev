@@ -2,9 +2,12 @@
 #include <iostream>
 //main.cpp
 #include "ship.h"
+#include "bullet.h"
 //...
 std::vector<Ship*> ships;
 std::vector<Ship*> playerships;
+std::vector<Bullet*> bullets;
+
 using namespace std;
 using namespace sf;
 
@@ -23,6 +26,7 @@ const int start_y = 50;   // Starting y position
 Texture spritesheet;
 Sprite invader;
 Sprite player;
+Sprite bullet;
 
 void Load() {
     if (!spritesheet.loadFromFile("res/sprites/invaders_sheet.png")) {
@@ -86,7 +90,11 @@ void Update(RenderWindow& window) {
     for (auto s : playerships) {
         s->Update(dt);
     };
-    
+
+    // Update bullets
+    for (auto b : bullets) {
+        b->Update(dt);
+    }
 
 }
 
@@ -98,6 +106,11 @@ void Render(RenderWindow& window) {
     }
     for (const auto s : playerships) {
         window.draw(*s);
+    }
+
+    // Render bullets
+    for (const auto b : bullets) {
+        window.draw(*b);
     }
 }
 

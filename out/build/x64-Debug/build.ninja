@@ -41,52 +41,6 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = C$:\Users\Jack$ Millar\Documents\GitHub\gamedev\out\build\x64-Debug\
 # =============================================================================
-# Object build statements for EXECUTABLE target PRACTICAL_1
-
-
-#############################################
-# Order-only phony target for PRACTICAL_1
-
-build cmake_object_order_depends_target_PRACTICAL_1: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window
-
-build CMakeFiles\PRACTICAL_1.dir\practical_1\main.cpp.obj: CXX_COMPILER__PRACTICAL_1_unscanned_Debug C$:\Users\Jack$ Millar\Documents\GitHub\gamedev\practical_1\main.cpp || cmake_object_order_depends_target_PRACTICAL_1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
-  INCLUDES = -I"C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include"
-  OBJECT_DIR = CMakeFiles\PRACTICAL_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\PRACTICAL_1.dir\practical_1
-  TARGET_COMPILE_PDB = CMakeFiles\PRACTICAL_1.dir\
-  TARGET_PDB = bin\PRACTICAL_1.pdb
-
-build CMakeFiles\PRACTICAL_1.dir\2_invaders\ship.cpp.obj: CXX_COMPILER__PRACTICAL_1_unscanned_Debug C$:\Users\Jack$ Millar\Documents\GitHub\gamedev\2_invaders\ship.cpp || cmake_object_order_depends_target_PRACTICAL_1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
-  INCLUDES = -I"C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include"
-  OBJECT_DIR = CMakeFiles\PRACTICAL_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\PRACTICAL_1.dir\2_invaders
-  TARGET_COMPILE_PDB = CMakeFiles\PRACTICAL_1.dir\
-  TARGET_PDB = bin\PRACTICAL_1.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target PRACTICAL_1
-
-
-#############################################
-# Link the executable bin\PRACTICAL_1.exe
-
-build bin\PRACTICAL_1.exe: CXX_EXECUTABLE_LINKER__PRACTICAL_1_Debug CMakeFiles\PRACTICAL_1.dir\practical_1\main.cpp.obj CMakeFiles\PRACTICAL_1.dir\2_invaders\ship.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = lib\sfml\lib\sfml-graphics-d.lib  lib\sfml\lib\sfml-window-d.lib  lib\sfml\lib\sfml-system-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  LINK_PATH = -LIBPATH:C:\Users\JACKMI~1\DOCUME~1\GitHub\gamedev\out\build\X64-DE~1\lib\sfml\lib
-  OBJECT_DIR = CMakeFiles\PRACTICAL_1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\PRACTICAL_1.dir\
-  TARGET_FILE = bin\PRACTICAL_1.exe
-  TARGET_IMPLIB = PRACTICAL_1.lib
-  TARGET_PDB = bin\PRACTICAL_1.pdb
-
-# =============================================================================
 # Object build statements for EXECUTABLE target 2_INVADERS
 
 
@@ -94,6 +48,14 @@ build bin\PRACTICAL_1.exe: CXX_EXECUTABLE_LINKER__PRACTICAL_1_Debug CMakeFiles\P
 # Order-only phony target for 2_INVADERS
 
 build cmake_object_order_depends_target_2_INVADERS: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window
+
+build CMakeFiles\2_INVADERS.dir\2_invaders\bullet.cpp.obj: CXX_COMPILER__2_INVADERS_unscanned_Debug C$:\Users\Jack$ Millar\Documents\GitHub\gamedev\2_invaders\bullet.cpp || cmake_object_order_depends_target_2_INVADERS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -external:I"C:\Users\Jack Millar\Documents\GitHub\gamedev\lib\sfml\include" -external:W0
+  OBJECT_DIR = CMakeFiles\2_INVADERS.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_INVADERS.dir\2_invaders
+  TARGET_COMPILE_PDB = CMakeFiles\2_INVADERS.dir\
+  TARGET_PDB = bin\2_INVADERS.pdb
 
 build CMakeFiles\2_INVADERS.dir\2_invaders\main.cpp.obj: CXX_COMPILER__2_INVADERS_unscanned_Debug C$:\Users\Jack$ Millar\Documents\GitHub\gamedev\2_invaders\main.cpp || cmake_object_order_depends_target_2_INVADERS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
@@ -119,7 +81,7 @@ build CMakeFiles\2_INVADERS.dir\2_invaders\ship.cpp.obj: CXX_COMPILER__2_INVADER
 #############################################
 # Link the executable bin\2_INVADERS.exe
 
-build bin\2_INVADERS.exe: CXX_EXECUTABLE_LINKER__2_INVADERS_Debug CMakeFiles\2_INVADERS.dir\2_invaders\main.cpp.obj CMakeFiles\2_INVADERS.dir\2_invaders\ship.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll
+build bin\2_INVADERS.exe: CXX_EXECUTABLE_LINKER__2_INVADERS_Debug CMakeFiles\2_INVADERS.dir\2_invaders\bullet.cpp.obj CMakeFiles\2_INVADERS.dir\2_invaders\main.cpp.obj CMakeFiles\2_INVADERS.dir\2_invaders\ship.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = lib\sfml\lib\sfml-graphics-d.lib  lib\sfml\lib\sfml-window-d.lib  lib\sfml\lib\sfml-system-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -2035,10 +1997,6 @@ build 2_INVADERS: phony bin\2_INVADERS.exe
 
 build 2_INVADERS.exe: phony bin\2_INVADERS.exe
 
-build PRACTICAL_1: phony bin\PRACTICAL_1.exe
-
-build PRACTICAL_1.exe: phony bin\PRACTICAL_1.exe
-
 build sfml-audio: phony bin\sfml-audio-d-2.dll
 
 build sfml-audio-d-2.dll: phony bin\sfml-audio-d-2.dll
@@ -2071,7 +2029,7 @@ build sfml-window-d-2.dll: phony bin\sfml-window-d-2.dll
 #############################################
 # Folder: C:/Users/Jack Millar/Documents/GitHub/gamedev/out/build/x64-Debug
 
-build all: phony bin\PRACTICAL_1.exe bin\2_INVADERS.exe lib\sfml\all
+build all: phony bin\2_INVADERS.exe lib\sfml\all
 
 # =============================================================================
 
