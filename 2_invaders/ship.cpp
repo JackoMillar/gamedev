@@ -46,6 +46,9 @@ Invader::Invader(sf::IntRect ir, sf::Vector2f pos) : Ship(ir) {
 
 // Invader-specific Update method
 void Invader::Update(const float& dt) {
+	static float firetime = 0.0f;
+	firetime -= dt;  // Decrease firetime based on elapsed time
+
 	// Invader movement logic
 	move(Vector2f(dt * (direction ? 1.0f : -1.0f) * speed, 0.0f));
 
@@ -59,7 +62,17 @@ void Invader::Update(const float& dt) {
 			}
 		}
 	}
+
+	// Firing bullets
+	if (firetime <= 0 && rand() % 100 == 0) {
+		Vector2f bulletPos = getPosition();
+		bulletPos.y += 32;  // Adjust this value to control firing position
+		Bullet* newBullet = new Bullet(bulletPos, true);  // Create bullet object
+		bullets.push_back(newBullet);  // Add to bullets vector
+		firetime = 4.0f + (rand() % 60);  // Reset firetime
+	}
 }
+
 
 // Player class constructor
 Player::Player() : Ship(IntRect(Vector2i(160, 32), Vector2i(32, 32))) {

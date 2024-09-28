@@ -10,7 +10,12 @@ using namespace std;
 Bullet::Bullet(const sf::Vector2f& pos, const bool mode) : _mode(mode) {
     setPosition(pos);  // Set the position of the bullet
     setTexture(spritesheet);  // Assign the texture
-    setTextureRect(IntRect(Vector2i(64, 32), Vector2i(32, 32)));  // Adjust this to match the bullet in your spritesheet
+    if (_mode) {  // Player bullet
+        setTextureRect(IntRect(Vector2i(32, 32), Vector2i(32, 32)));  // Adjust this to match invader bullets
+    }
+    else {  // Invader bullet
+        setTextureRect(IntRect(Vector2i(64, 32), Vector2i(32, 32)));  // Adjust this for player bullet
+    }
 }
 /*
 void Bullet::Update(const float& dt) {
