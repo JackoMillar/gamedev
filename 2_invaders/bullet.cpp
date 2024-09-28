@@ -22,48 +22,41 @@ void Bullet::Update(const float& dt) {
 	
 }*/
 
+// Update method for Bullet
 void Bullet::Update(const float& dt) {
-    move(Vector2f(0, dt * 200.0f * (_mode ? 1.0f : -1.0f)));
+    // Move the bullet
+    move(Vector2f(0, (!_mode ? -1.0f : 1.0f) * dt * 200.0f)); // Corrected the direction of the bullet movement
 
+    // Check if the bullet is off-screen
     if (getPosition().y < -32 || getPosition().y > gameHeight + 32) {
-        // Off screen - do nothing
+        setPosition(Vector2f(-100, -100)); // Move bullet off-screen
         return;
     }
-    else {
-        move(Vector2f(0, dt * 200.0f * (_mode ? 1.0f : -1.0f)));
-        const FloatRect boundingBox = getGlobalBounds();
 
-        for (auto s : ships) {
-            // Use dynamic_cast to check if the ship is a Player or an Invader
-         
-            if (dynamic_cast<Player*>(s)) {
-                // This ship is a Player
-                
-                if (!_mode) {
-                    
-                    // Player bullets don't collide with player
-                    continue;
-                }
-            }
-            else if (dynamic_cast<Invader*>(s)) {
-                // This ship is an Invader
-                if (_mode) {
-                    // Invader bullets don't collide with other invaders
-                    continue;
-                }
-            }
+    const FloatRect boundingBox = getGlobalBounds();
 
-            // Check for collision with non-exploded ships
-            if (!s->is_exploded() && s->getGlobalBounds().intersects(boundingBox)) {
-                // Explode the ship
+    for (auto s : ships) {
+        if (dynamic_cast<Player*>(s) && _mode) { // Check for invader bullet collision
+            if (s->getGlobalBounds().intersects(boundingBox)) {
+                printf( "Collision detected with player!" );
                 s->Explode();
-                // Warp bullet off-screen
+                setPosition(Vector2f(-100, -100));
+                return;
+            }
+        }
+        else if (dynamic_cast<Invader*>(s) && !_mode) { // Check for player bullet collision
+            if (s->getGlobalBounds().intersects(boundingBox)) {
+                printf("Collision detected with invader!");
+                s->Explode();
                 setPosition(Vector2f(-100, -100));
                 return;
             }
         }
     }
 }
+
+
+
 
 
 Bullet::~Bullet() {
