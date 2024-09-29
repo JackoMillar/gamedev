@@ -27,3 +27,9 @@ file(GLOB_RECURSE SOURCES 2_invaders/*.cpp 2_invaders/*.h)
 add_executable(2_INVADERS ${SOURCES}  "2_invaders/ship.h" "2_invaders/ship.cpp" "2_invaders/game.h" "2_invaders/bullet.cpp" "2_invaders/bullet.h")
 target_include_directories(2_INVADERS SYSTEM PRIVATE ${SFML_INCS})
 target_link_libraries(2_INVADERS sfml-graphics)
+
+## Maze
+file(GLOB_RECURSE SOURCES maze/*.cpp maze/*.h)
+add_executable(MAZE ${SOURCES}  "maze/entity.cpp" "maze/entity.h" "maze/player.h" "maze/player.cpp")
+target_include_directories(MAZE SYSTEM PRIVATE ${SFML_INCS})
+target_link_libraries(MAZE sfml-graphics)
