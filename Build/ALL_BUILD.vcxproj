@@ -181,6 +181,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{CD878545-1AB0-3400-9250-44F78FFB23FC}</Project>
       <Name>MAZE</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\Build\PRACTICAL_1.vcxproj">
+      <Project>{52B92DEF-FD43-3A2B-8E93-1F597F3DFD43}</Project>
+      <Name>PRACTICAL_1</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\Jack Millar\Documents\GitHub\gamedev\Build\lib\sfml\src\SFML\Audio\sfml-audio.vcxproj">
       <Project>{4C140F0C-8E5D-3C81-A7F7-2DFC0B0A62FE}</Project>
       <Name>sfml-audio</Name>

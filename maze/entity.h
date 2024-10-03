@@ -1,6 +1,6 @@
 //entity.h
+//entity.h
 #pragma once
-
 #include <SFML/Graphics.hpp>
 #include <memory>
 

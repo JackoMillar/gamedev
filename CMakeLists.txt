@@ -17,10 +17,10 @@ set(SFML_INCS "lib/sfml/include")
 link_directories("${CMAKE_BINARY_DIR}/lib/sfml/lib")
 
 #### Practical 1 ####
-###file(GLOB_RECURSE SOURCES practical_1/*.cpp practical_1/*.h)
-##add_executable(PRACTICAL_1 ${SOURCES} "")
-#target_include_directories(PRACTICAL_1 PRIVATE ${SFML_INCS})
-#target_link_libraries(PRACTICAL_1 sfml-graphics)
+file(GLOB_RECURSE SOURCES practical_1/*.cpp practical_1/*.h)
+add_executable(PRACTICAL_1 ${SOURCES})
+target_include_directories(PRACTICAL_1 PRIVATE ${SFML_INCS})
+target_link_libraries(PRACTICAL_1 sfml-graphics)
 
 ## Space invaders
 file(GLOB_RECURSE SOURCES 2_invaders/*.cpp 2_invaders/*.h)
@@ -30,6 +30,6 @@ target_link_libraries(2_INVADERS sfml-graphics)
 
 ## Maze
 file(GLOB_RECURSE SOURCES maze/*.cpp maze/*.h)
-add_executable(MAZE ${SOURCES}  "maze/entity.cpp" "maze/entity.h" "maze/player.h" "maze/player.cpp")
+add_executable(MAZE ${SOURCES}  "maze/entity.cpp" "maze/entity.h" "maze/player.h" "maze/player.cpp" "maze/main.cpp")
 target_include_directories(MAZE SYSTEM PRIVATE ${SFML_INCS})
 target_link_libraries(MAZE sfml-graphics)
