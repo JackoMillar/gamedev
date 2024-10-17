@@ -375,6 +375,12 @@ VORBIS_LIBRARY:FILEPATH=C:/Users/Jack Millar/Documents/GitHub/gamedev/lib/sfml/e
 WARNINGS_AS_ERRORS:BOOL=OFF
 
 //Dependencies for the target
+lib_tile_level_loader_LIB_DEPENDS:STATIC=general;sfml-graphics;
+
+//Dependencies for the target
+maze_LIB_DEPENDS:STATIC=general;sfml-graphics;
+
+//Dependencies for the target
 sfml-audio_LIB_DEPENDS:STATIC=general;sfml-system;
 
 //Dependencies for the target

@@ -7,15 +7,13 @@ public:
     Bullet(const sf::Vector2f& pos, const bool mode);
 
     // Destructor
-    virtual ~Bullet();  // Use virtual destructor if you're using polymorphism
+    virtual ~Bullet(); 
 
     // Update function
     void Update(const float& dt);
 
     static void Render(sf::RenderWindow& window);
-
     static void Fire(const sf::Vector2f& pos, const bool mode);
-
     static void Init();
 private:
     bool _mode;

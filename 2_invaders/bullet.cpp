@@ -17,10 +17,6 @@ Bullet::Bullet(const sf::Vector2f& pos, const bool mode) : _mode(mode) {
         setTextureRect(IntRect(Vector2i(64, 32), Vector2i(32, 32)));  // Adjust this for player bullet
     }
 }
-/*
-void Bullet::Update(const float& dt) {
-	
-}*/
 
 // Update method for Bullet
 void Bullet::Update(const float& dt) {
@@ -54,10 +50,6 @@ void Bullet::Update(const float& dt) {
         }
     }
 }
-
-
-
-
 
 Bullet::~Bullet() {
     // Empty destructor, but needed for proper linking

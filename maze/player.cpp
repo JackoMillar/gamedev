@@ -33,10 +33,10 @@ void Player::Update(double dt) {
 	}
 	// Only move if there is input
 
-		_position += Vector2f(directionx * _speed * dt, directiony * _speed * dt);
+	_position += Vector2f(directionx * _speed * dt, directiony * _speed * dt);
 
-		// Move the shape to reflect the new position
-		_shape->setPosition(_position);
+	// Move the shape to reflect the new position
+	_shape->setPosition(_position);
 	
 
 	Entity::Update(dt);

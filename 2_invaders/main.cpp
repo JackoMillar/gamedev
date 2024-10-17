@@ -95,7 +95,6 @@ void Update(RenderWindow& window) {
     for (auto b : bullets) {
         b->Update(dt);
     }
-
 }
 
 void Render(RenderWindow& window) {
